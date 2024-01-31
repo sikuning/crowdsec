@@ -45,9 +45,9 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         env:
           - name: DISABLE_LOCAL_API
-            value: "true"
+            value: "false"
           - name: DISABLE_ONLINE_API
-            value: "true"
+            value: "false"
 
           # agent - lapi authentication, with TLS or password
 
